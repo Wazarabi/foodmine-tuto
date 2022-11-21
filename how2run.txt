@@ -1,0 +1,25 @@
+npm start @ /backend
+npm start @ /frontend
+
+
+
+
+----------> Problem 1 (5%)
+    start-rating doesn't work
+----------> Solution
+    ngb-rating
+
+
+
+
+----------> Problem 2 (30%)
+    Error: node_modules/ngx-toastr/toastr/toast-noanimation.component.d.ts:50:18 - error TS2707: Generic type 'ɵɵComponentDeclaration' requires between 7 and 8 type arguments.
+    50     static ɵcmp: i0.ɵɵComponentDeclaration<ToastNoAnimation, "[toast-component]", never, {}, {}, never, never, false, never>;
+            
+    Error: node_modules/ngx-toastr/toastr/toast.component.d.ts:57:18 - error TS2707: Generic type 'ɵɵComponentDeclaration' requires between 7 and 8 type arguments.
+    57     static ɵcmp: i0.ɵɵComponentDeclaration<Toast, "[toast-component]", never, {}, {}, never, never, false, never>;
+                    
+    Error: node_modules/ngx-toastr/toastr/toast.directive.d.ts:8:18 - error TS2707: Generic type 'ɵɵDirectiveDeclaration' requires between 6 and 8 type arguments.
+    8     static ɵdir: i0.ɵɵDirectiveDeclaration<ToastContainerDirective, "[toastContainer]", ["toastContainer"], {}, {}, never, never, false, never>;
+-----------> Solution
+    // comment the 3 lines that fuckeverything up
